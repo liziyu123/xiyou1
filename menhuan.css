@@ -1,0 +1,41 @@
+body,html,.west{width: 100%;height: 100%}
+/*audio{display: block !important}*/
+body{background: url("ft.webp") no-repeat center center;overflow: hidden; }
+.west{width: 780px;margin: 350px auto}
+.west>div{float: left}
+.west01{width: 200px;height: 180px;background: url("img/west_01_3ca39fe.png")no-repeat;animation:west01 1s steps(8) infinite}
+.west02{width: 200px;height: 180px;background: url("img/west_02_47bad19.png")no-repeat;animation:west02 1s steps(8) infinite}
+.west03{width: 170px;height: 240px;background: url("img/west_03_f962447.png")no-repeat;animation:west03 1s steps(8) infinite}
+.west04{width: 210px;height: 200px;background: url("img/west_04_6516d80.png")no-repeat;animation:west04 1s steps(8) infinite}
+@-webkit-keyframes west01 {
+     0%{background-position: 0 0}
+     100%{: -1600px}
+ }
+@keyframes west01 {
+      0%{background-position: 0 0}
+      100%{background-position: -1600px}
+  }
+@-webkit-keyframes west02 {
+    0%{background-position: 0 0}
+    100%{: -1600px}
+}
+@keyframes west02 {
+      0%{background-position: 0 0}
+      100%{background-position: -1600px}
+  }
+@-webkit-keyframes west03 {
+    0%{background-position: 0 0}
+    100%{: -1360px}
+}
+@keyframes west03 {
+    0%{background-position: 0 0}
+    100%{background-position: -1360px}
+}
+@-webkit-keyframes west04 {
+    0%{background-position: 0 0}
+    100%{: -1680px}
+}
+@keyframes west04 {
+    0%{background-position: 0 0}
+    100%{background-position: -1680px}
+}
